@@ -1,6 +1,6 @@
 {
   "name": "@meshramvibhor/react-native-intent",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "library to work on native intents",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
@@ -110,7 +110,8 @@
       "tagName": "v${version}"
     },
     "npm": {
-      "publish": true
+      "publish": true,
+      "access": "public"
     },
     "github": {
       "release": true
