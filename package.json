@@ -1,6 +1,6 @@
 {
-  "name": "@meshramvibhor/react-native-intent",
-  "version": "0.1.2",
+  "name": "react-native-intent-handler",
+  "version": "0.1.3",
   "description": "library to work on native intents",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
