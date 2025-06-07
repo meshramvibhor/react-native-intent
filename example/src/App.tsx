@@ -1,5 +1,5 @@
 import { Text, View, StyleSheet } from 'react-native';
-import { multiply } from 'react-native-intent-extras';
+import { multiply, getIntentExtras } from 'react-native-intent-extras';
 
 const result = multiply(3, 7);
 
@@ -7,6 +7,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Result: {result}</Text>
+      <Text>Intent Extras: {JSON.stringify(getIntentExtras('name'))}</Text>
     </View>
   );
 }
