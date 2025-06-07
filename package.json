@@ -1,6 +1,6 @@
 {
-  "name": "react-native-intent",
-  "version": "0.1.0",
+  "name": "@meshramvibhor/react-native-intent",
+  "version": "0.1.1",
   "description": "library to work on native intents",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
